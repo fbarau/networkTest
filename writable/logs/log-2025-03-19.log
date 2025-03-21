@@ -1,0 +1,649 @@
+CRITICAL - 2025-03-19 00:04:17 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: traceroute/google.com]
+in APPPATH\Controllers\NetworkController.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-19 00:08:25 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: traceroute/google.com]
+in APPPATH\Controllers\NetworkController.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-19 00:10:03 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: traceroute/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(74): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 00:15:10 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: traceroute/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(74): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 00:18:36 --> ErrorException: mb_convert_encoding(): Unable to detect character encoding
+[Method: GET, Route: traceroute/google.com]
+in APPPATH\Controllers\NetworkController.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_encoding(): Unable to detect character encoding', 'C:\\xampp\\htdocs\\networkTest\\app\\Controllers\\NetworkController.php', 72)
+ 2 APPPATH\Controllers\NetworkController.php(72): mb_convert_encoding('
+Rastreando a rota para google.com [142.251.129.14]
+com no m ximo 30 saltos:
+
+  1     3 ms     3 ms     2 ms  GPT-2741GNAC-N1-SV.GPT-2741GNAC-N1-SV [192.168.15.1] 
+  2     *        *        *     Esgotado o tempo limite do pedido.
+  3    16 ms     6 ms     6 ms  201-1-225-121.dsl.telesp.net.br [201.1.225.121] 
+  4     6 ms     6 ms     6 ms  152-255-178-36.user.vivozap.com.br [152.255.178.36] 
+  5     *        *       84 ms  187-100-60-131.dsl.telesp.net.br [187.100.60.131] 
+  6     9 ms    35 ms    97 ms  187-100-54-45.dsl.telesp.net.br [187.100.54.45] 
+  7     *        *        *     Esgotado o tempo limite do pedido.
+  8     9 ms     9 ms     9 ms  74.125.52.64 
+  9    10 ms     9 ms     9 ms  192.178.82.55 
+ 10    10 ms     9 ms    40 ms  192.178.240.77 
+ 11     9 ms     9 ms    26 ms  gru30s12-in-f14.1e100.net [142.251.129.14] 
+
+Rastreamento conclu¡do.
+', 'UTF-8', 'auto')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:21:03 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:22:16 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->jitter('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:44:46 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:47:44 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:49:57 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:51:06 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:51:50 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->jitter('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 00:54:06 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 12:42:20 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 12:42:38 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(16): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 12:43:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "swagger/index.php"
+[Method: GET, Route: api/swagger]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('swagger/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('swagger/index', [], true)
+ 3 APPPATH\Config\Routes.php(13): view('swagger/index')
+ 4 SYSTEMPATH\CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 13:03:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "swagger/index.html"
+[Method: GET, Route: api/swagger]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('swagger/index.html')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('swagger/index.html', [], true)
+ 3 APPPATH\Config\Routes.php(13): view('swagger/index.html')
+ 4 SYSTEMPATH\CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 13:09:14 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(16): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 13:59:47 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(15): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:00:08 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:00:11 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:03:13 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:03:17 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:05:25 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:06:24 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:06:51 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:07:00 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:09:14 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(14): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:11:11 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:15:32 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:19:50 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:26:04 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 SYSTEMPATH\ThirdParty\PSR\Log\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 14:39:23 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 16:25:18 --> ErrorException: Required @OA\Info() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\Info() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\Info() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\Info() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\AbstractAnnotation.php(530): Psr\Log\AbstractLogger->warning('Required @OA\\Info() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(170): OpenApi\Annotations\AbstractAnnotation->validate([], [], '#', Object(stdClass))
+ 6 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 8 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 9 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 16:26:05 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 16:26:08 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 16:26:20 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-19 16:26:22 --> ErrorException: Required @OA\PathItem() not found
+[Method: GET, Route: api/docs]
+in VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Required @OA\\PathItem() not found', 'C:\\xampp\\htdocs\\networkTest\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php', 23)
+ 2 VENDORPATH\zircote\swagger-php\src\Loggers\DefaultLogger.php(23): trigger_error('Required @OA\\PathItem() not found', 512)
+ 3 VENDORPATH\psr\log\src\LoggerTrait.php(61): OpenApi\Loggers\DefaultLogger->log('warning', 'Required @OA\\PathItem() not found', [])
+ 4 VENDORPATH\zircote\swagger-php\src\Annotations\OpenApi.php(157): Psr\Log\AbstractLogger->warning('Required @OA\\PathItem() not found')
+ 5 VENDORPATH\zircote\swagger-php\src\Analysis.php(423): OpenApi\Annotations\OpenApi->validate()
+ 6 VENDORPATH\zircote\swagger-php\src\Generator.php(370): OpenApi\Analysis->validate()
+ 7 VENDORPATH\zircote\swagger-php\src\Generator.php(313): OpenApi\Generator->generate([...], Object(OpenApi\Analysis), true)
+ 8 APPPATH\Controllers\SwaggerController.php(13): OpenApi\Generator::scan([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SwaggerController->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SwaggerController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 18:00:39 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 18:02:07 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-19 18:05:28 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->jitter('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-19 18:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 18:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 18:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 18:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-19 18:40:32 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-19 18:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-19 18:40:54 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-19 18:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 18:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-19 18:54:58 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 116.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->traceroute()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-19 18:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 18:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-19 18:58:37 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->jitter()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-19 19:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 19:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 19:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 19:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 19:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 19:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-19 20:12:28 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: POST, Route: api/traceroute]
+in APPPATH\Controllers\NetworkController.php on line 212.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-03-19 20:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-19 20:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,238 @@
+CRITICAL - 2025-03-18 22:22:21 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkTest.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkTest->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkTest))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-18 22:22:26 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkTest.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkTest->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkTest))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-18 22:36:36 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkTest.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkTest->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkTest))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 22:38:24 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 22:41:59 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 22:45:29 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:22:46 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:25:49 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:27:21 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(32): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:33:23 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(36): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:36:07 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(46): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:43:13 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(48): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:44:58 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(48): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:46:26 --> CodeIgniter\Format\Exceptions\FormatException: Failed to parse JSON string. Error: Malformed UTF-8 characters, possibly incorrectly encoded
+[Method: GET, Route: ping/google.com]
+in SYSTEMPATH\Format\JSONFormatter.php on line 45.
+ 1 SYSTEMPATH\Format\JSONFormatter.php(45): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8 characters, possibly incorrectly encoded')
+ 2 SYSTEMPATH\API\ResponseTrait.php(345): CodeIgniter\Format\JSONFormatter->format([...])
+ 3 SYSTEMPATH\API\ResponseTrait.php(103): CodeIgniter\RESTful\ResourceController->format([...])
+ 4 APPPATH\Controllers\NetworkController.php(48): CodeIgniter\RESTful\ResourceController->respond([...], 200)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-18 23:48:25 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-18 23:49:59 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-18 23:50:25 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-18 23:51:03 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-18 23:51:41 --> [DEPRECATED] Function utf8_encode() is deprecated in APPPATH\Controllers\NetworkController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NetworkController->ping('google.com')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NetworkController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+CRITICAL - 2025-03-18 23:54:09 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: traceroute/google.com]
+in APPPATH\Controllers\NetworkController.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

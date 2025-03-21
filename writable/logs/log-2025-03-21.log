@@ -1,0 +1,373 @@
+WARNING - 2025-03-21 00:24:39 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:26:05 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:27:25 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:27:46 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:28:11 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:28:14 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:28:45 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:29:19 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:31:18 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:31:31 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:35:20 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:36:21 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-21 00:36:21 --> Error: Call to undefined function App\Filters\validateJWT()
+[Method: GET, Route: /]
+in APPPATH\Filters\JWTAuth.php on line 45.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JWTAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-21 00:39:17 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:39:33 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-21 00:39:52 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:41:02 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:42:59 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:43:52 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:43:59 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 00:52:02 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 00:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 00:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 18:58:46 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+WARNING - 2025-03-21 18:58:54 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 18:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 18:59:06 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 18:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:00:00 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:01:31 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:04:40 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:05:27 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:05:40 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:06:31 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:06:49 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:06:57 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('auth/login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-03-21 19:07:07 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('api/setip')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('api/setIp', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\networkTest\\public\\index.php')
+DEBUG - 2025-03-21 19:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 19:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-21 19:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
